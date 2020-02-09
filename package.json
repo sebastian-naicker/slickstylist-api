@@ -1,0 +1,24 @@
+{
+  "name": "slick-stylist-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=dev DEBUG=app,db nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db": "NODE_ENV=dev DEBUG=db nodemon db.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.2.5",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "morgan": "^1.9.1",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "mongoose": "^5.8.11"
+  }
+}
