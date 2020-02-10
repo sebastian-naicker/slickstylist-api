@@ -24,6 +24,9 @@ const port = process.env.PORT || 3031;
 
 io.on('connection', socket => {
   app_debug('user connected');
+  socket.on('io_connect', (data) => {
+    console.log(data)
+  });
 });
 
 http.listen(port, () => {

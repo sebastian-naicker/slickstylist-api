@@ -4,13 +4,12 @@ const cols = require('./db/collections/index');
 db.connect();
 
 // cols.userModel.createUser({
-//   first_name: 'Sebastian',
-//   last_name: 'Naicker',
+//   first_name: 'Seb',
 //   profession: 'Software Developer',
-//   role: { id: 1, name: 'Admin' },
+//   role: {id: 2, name: 'Sales Manager'},
 //   start_date: Date.now(),
-//   contact_number: '0846639791',
+//   contact_number: '084-663-9791',
 //   email: 'djinnwheeler@gmail.com',
 // });
 
-cols.userModel.getUser('5e4091d1d690d201cb100114');
+cols.userModel.getUser('5e40fb759197813c015a629a');
